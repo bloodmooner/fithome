@@ -1,0 +1,111 @@
+.promo {
+    min-height: 851px;
+    position: relative;
+    &__backgrounds {
+        display: grid;
+        grid-template-columns: 42% 58%;
+        grid-template-rows: 851px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        &-left {
+
+        }
+        &-right {
+            background: url('../../img/main_bg.png') no-repeat 50%/cover;
+        }
+    }
+    &__header {
+        padding-top: 70px;
+        display: grid;
+        grid-template-columns: 76px 45px;
+        grid-template-rows: 22px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-weight: normal;
+        font-size: 20px;
+        color: #202020;
+        span {
+            font-weight: bold;
+        }
+    }
+    &__hamburger {
+        div {
+            margin-top: 6px;
+            width: 45px;
+            height: 3px;
+            background: #202020;
+        }
+    }
+    &__descr {
+        padding-top: 233px;
+        position: relative;
+    }
+    &__title {
+        margin-top: 10px;
+        margin-left: -12px;
+        line-height: 120px;
+        color: #DB2A41;
+        text-align: left;
+        &-home {
+            font-size: 48px;
+            display: block;
+            color: #202020;
+            font-weight: bold;
+        }
+        &-ss {
+            color: #ffffff;
+            padding-left: 15px;
+        }
+    }
+    &__subtitle {
+        margin-top: 35px;
+        font-weight: normal;
+        font-size: 18px;
+        color: #202020;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 230px 98px;
+        grid-template-rows: 98px;
+        column-gap: 295px;
+        align-items: center;
+    }
+    &__slider {
+        position: relative;
+        &-controls {
+            position: relative;
+        }
+        &-left {
+            position: absolute;
+            left: 0;
+        }
+        &-right {
+            position: absolute;
+            right: 0;
+        }
+        &-numbers {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &-active {
+            display: inline;
+            font-size: 36px;
+            color: #cecece;
+            font-weight: 500;
+        }
+        &-list {
+            display: inline;
+            font-size: 20px;
+            color: #cecece;
+            font-weight: 700;
+        }
+    }
+
+}

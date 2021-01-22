@@ -1,0 +1,53 @@
+.pair {
+    min-height: 669px;
+    position: relative;
+    &__backgrounds {
+        display: grid;
+        grid-template-columns: 58% 42%;
+        grid-template-rows: 600px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        &-left {
+            position: relative;
+            background: url('../../img/pair-fitnes_bg.png') no-repeat 50%/cover;
+        }
+        &-right {
+            background-color: #FAFAFA;
+            position: relative;
+        }
+    }
+    &__new {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+        line-height: 0px;
+        font-weight: 900;
+        font-size: 144px;
+        color: #DB2A41;
+    }
+    &__descr {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 133px;
+    }
+    &__text {
+        margin-top: 20px;
+        line-height: 30px;
+        font-weight: 300;
+        font-size: 18px;
+        color: #202020;
+    }
+    &__btn {
+        margin-top: 50px;
+        width: 236px;
+        height: 70px;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}

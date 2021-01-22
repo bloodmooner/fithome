@@ -1,0 +1,26 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@import 'blocks/titles';
+@import 'blocks/buttons';
+
+* {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+@import 'blocks/promo';
+@import 'blocks/trainings';
+@import 'blocks/timetable';
+@import 'blocks/pair';
+@import 'blocks/food';
+@import 'blocks/footer';

@@ -1,0 +1,13 @@
+.btn {
+    background-color: #DB2A41;
+    color: #ffffff;
+    border: none;
+    &_play {
+        width: 98px;
+        height: 98px;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}

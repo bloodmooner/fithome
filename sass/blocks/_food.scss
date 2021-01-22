@@ -1,0 +1,106 @@
+.food {
+    padding: 150px 0px;
+    .container {
+        margin-left: 100px;
+        width: 1483px;
+    }
+    &__title {
+        text-align: center;
+        color: #202020;
+        &-online {
+            color: #DB2A41;
+        }
+    }
+    &__heading {
+        position: relative;
+    }
+    &__slider {
+        position: absolute;
+        width: 230px;
+        bottom: 20px;
+        &-controls {
+            position: relative;
+        }
+        &-left {
+            position: absolute;
+            left: 0;
+        }
+        &-right {
+            position: absolute;
+            right: 0;
+        }
+        &-numbers {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &-active {
+            display: inline;
+            font-size: 36px;
+            color: #cecece;
+            font-weight: 500;
+        }
+        &-list {
+            display: inline;
+            font-size: 20px;
+            color: #cecece;
+            font-weight: 700;
+        }
+    }
+    &__wrapper {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: 335px 1008px;
+        column-gap: 140px;
+    }
+    &__caption {
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    &__list {
+        display: grid;
+        grid-template-columns: 1008px;
+        grid-template-rows: repeat(3, 335px);
+        row-gap: 70px;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 335px 550px;
+        column-gap: 119px;
+        align-items: center;
+        background-color: #FAFAFA;
+    }
+    &__information {
+        &-header {
+            font-weight: 700;
+            font-size: 18px;
+            color: #202020;
+            text-transform: uppercase;
+        }
+        &-text {
+            margin-top: 15px;
+            width: 355px;
+            font-weight: 300;
+            font-size: 16px;
+            color: #202020;
+        }
+        &-btn {
+            margin-top: 45px;
+        }
+    }
+    &__btn {
+        width: 256px;
+        height: 60px;
+        background-color: #fff;
+        border: 2px solid #DB2A41;
+        color: #DB2A41;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
