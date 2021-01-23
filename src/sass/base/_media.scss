@@ -1,0 +1,77 @@
+@media (max-width: 1599px) {
+    .container {
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .promo {
+
+        &__title {
+            font-size: 165px;
+        }
+        &__wrapper {
+            column-gap: 200px;
+        }
+    }
+    .trainings {
+        &__wrapper {
+            grid-template-columns: repeat(3, 330px);
+            width: 1070px;
+            margin: 70px auto 0px auto;
+        }
+        &__img {
+            width: 330px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .timetable {
+        &__item {
+            grid-template-columns: 115px 790px;
+        }
+    }
+    .pair {
+        &__descr {
+            margin-top: 75px;
+        }
+    }
+    .food {
+        .container {
+            margin-left: 35px;
+            width: 1150px;
+        }
+        &__wrapper {
+            grid-template-columns: 270px 790px;
+            column-gap: 90px;
+        }
+        &__list {
+            grid-template-columns: 790px;
+        }
+        &__item {
+            grid-template-columns: 335px 337px;
+        }
+        &__information {
+            &-text {
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}
