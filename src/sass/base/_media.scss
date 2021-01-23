@@ -135,11 +135,95 @@
 }
 
 @media (max-width: 992px) {
-    
+    .container {
+        width: 700px;
+    }
+    .promo {
+
+        &__title {
+            font-size: 100px;
+        }
+        &__wrapper {
+            column-gap: 10px;
+        }
+        &__subtitle {
+            width: 300px;
+        }
+    }
+    .trainings {
+        &__wrapper {
+            grid-template-columns: 400px;
+            row-gap: 30px;
+            width: 400px;
+            margin: 70px auto 0px auto;
+        }
+        &__item {
+            margin: 0 auto;
+        }
+        &__img {
+            width: 400px;
+            img {
+                width: 100%;
+            }
+        }
+        &__text {
+            width: 400px;
+        }
+    }
+    .timetable {
+        &__item {
+            grid-template-columns: 115px 525px;
+            grid-template-rows: 220px;
+            column-gap: 60px;
+        }
+        &__training {
+            grid-template-columns: repeat(2, 220px);
+            grid-template-rows: repeat(2, 110px);
+            width: 500px;
+        }
+    }
+    .pair {
+        &__descr {
+            margin-top: 40px;
+        }
+    }
+    .food {
+        .container {
+            margin-left: 25px;
+            width: 700px;
+        }
+        &__wrapper {
+            grid-template-columns: 700px;
+            column-gap: 100px;
+        }
+        &__heading {
+            height: 200px;
+        }
+        &__list {
+            grid-template-columns: 700px;
+        }
+        &__item {
+            grid-template-columns: 260px 320px;
+            column-gap: 70px;
+        }
+        &__img {
+            width: 260px;
+            img {
+                width: 100%
+            };
+        }
+        &__information {
+            &-text {
+                width: 350px;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
-    
+    .container {
+        width: 540px;
+    }
 }
 
 @media (max-width: 576px) {
