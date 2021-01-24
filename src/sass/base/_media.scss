@@ -1,3 +1,19 @@
+@media (max-width: 4200px) {
+    .promo, .pair, .food, .trainings, .timetable, .footer {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1920px) {
+    .food {
+        .container {
+            margin: 0 auto;
+        }
+    }
+}
+
+
 @media (max-width: 1599px) {
     .container {
         width: 1150px;
@@ -77,17 +93,21 @@
     .trainings {
         &__wrapper {
             grid-template-columns: repeat(3, 280px);
+            grid-template-rows: 450px;
             width: 850px;
             margin: 70px auto 0px auto;
         }
         &__img {
             width: 280px;
+            height: 170px;
             img {
                 width: 100%;
             }
         }
         &__text {
-            width: 270px;
+            width: 280px;
+            padding: 0px 40px 0px 40px;
+
         }
     }
     .timetable {
@@ -106,15 +126,21 @@
     }
     .food {
         .container {
-            margin-left: 25px;
+            margin: 0 auto;
             width: 900px;
         }
+        &__slider {
+            bottom: 55px;
+        }
+        &__heading {
+            margin-top: 40px;
+        }
         &__wrapper {
-            grid-template-columns: 170px 640px;
+            grid-template-columns: 170px 700px;
             column-gap: 100px;
         }
         &__list {
-            grid-template-columns: 640px;
+            grid-template-columns: 700px;
         }
         &__item {
             grid-template-columns: 260px 320px;
@@ -139,12 +165,25 @@
         width: 700px;
     }
     .promo {
-
+        &__slider {
+            &-controls {
+                img {
+                    width: 45px;
+                }
+            }
+            &-active {
+                font-size: 30px;
+            }
+            &-list {
+                font-size: 14px;
+            }
+        }
         &__title {
             font-size: 100px;
         }
         &__wrapper {
             column-gap: 10px;
+            grid-template-columns: 215px 98px;
         }
         &__subtitle {
             width: 300px;
@@ -152,22 +191,25 @@
     }
     .trainings {
         &__wrapper {
-            grid-template-columns: 400px;
+            grid-template-columns: 450px;
+            grid-template-rows: repeat(3, 505px);
             row-gap: 30px;
-            width: 400px;
+            width: 450px;
             margin: 70px auto 0px auto;
         }
         &__item {
             margin: 0 auto;
         }
         &__img {
-            width: 400px;
+            width: 450px;
+            height: 270px;
             img {
                 width: 100%;
             }
         }
         &__text {
-            width: 400px;
+            width: 450px;
+            padding: 0px 70px 70px 70px;
         }
     }
     .timetable {
@@ -183,13 +225,16 @@
         }
     }
     .pair {
+        &__backgrounds {
+            grid-template-columns: 50% 50%;
+        }
         &__descr {
-            margin-top: 40px;
+            margin-top: 55px;
         }
     }
     .food {
         .container {
-            margin-left: 25px;
+            margin: 0 auto;
             width: 700px;
         }
         &__wrapper {
@@ -201,6 +246,7 @@
         }
         &__list {
             grid-template-columns: 700px;
+            margin-top: 50px;
         }
         &__item {
             grid-template-columns: 260px 320px;
