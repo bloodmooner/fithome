@@ -376,18 +376,25 @@
         }
         &__logo {
             color: #ffffff;
+            height: 22px;
+            font-size: 24px;
         }
         &__title {
             font-size: 64px;
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            &-home {
+                text-align: center;
+            }
         }
         &__subtitle {
             color: #ffffff;
+            width: 300px;
+            text-align: center;
         }
         &__wrapper {
-            grid-template-columns: 150px;
-        }
-        &__subtitle {
-            width: 215px;
+            grid-template-columns: 300px;
         }
         &__descr {
             padding-top: 175px;
@@ -400,6 +407,7 @@
     .trainings {
         &__wrapper {
             grid-template-columns: 300px;
+            grid-template-rows: 420px;
             row-gap: 30px;
             width: 300px;
             margin: 70px auto 0px auto;
@@ -409,12 +417,14 @@
         }
         &__img {
             width: 300px;
+            height: 180px;
             img {
                 width: 100%;
             }
         }
         &__text {
             width: 300px;
+            padding: 10px;
         }
         &__title {
             font-size: 38px;
@@ -470,6 +480,7 @@
         }
     }
     .food {
+        padding: 150px 0px 75px 0px;
         .container {
             margin: 0 auto;
             width: 300px;
@@ -487,12 +498,14 @@
         &__list {
             grid-template-columns: 300px;
             grid-template-rows: repeat(3, 600px);
+            margin: 60px auto 0px auto;
         }
         &__item {
             grid-template-columns: 300px;
             column-gap: 70px;
-            grid-template-rows: 300px 400px;
-            margin: 70px auto 0px auto;
+            grid-template-rows: 300px 245px;
+            margin: 0 auto;
+            height: 550px;
         }
         &__img {
             width: 300px;
@@ -515,7 +528,7 @@
                 margin: 30px auto 0px auto;
             }
             &-wrapper {
-
+                padding: 10px;
             }
         }
     }
