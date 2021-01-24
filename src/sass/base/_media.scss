@@ -226,6 +226,19 @@
     }
     .promo {
 
+        &__slider {
+            &-controls {
+                img {
+                    width: 35px;
+                }
+            }
+            &-active {
+                font-size: 30px;
+            }
+            &-list {
+                font-size: 14px;
+            }
+        }
         &__title {
             font-size: 78px;
         }
@@ -246,6 +259,7 @@
     .trainings {
         &__wrapper {
             grid-template-columns: 400px;
+            grid-template-rows: 470px;
             row-gap: 30px;
             width: 400px;
             margin: 70px auto 0px auto;
@@ -255,12 +269,14 @@
         }
         &__img {
             width: 400px;
+            height: 240px;
             img {
                 width: 100%;
             }
         }
         &__text {
             width: 400px;
+            padding: 10px;
         }
     }
     .timetable {
@@ -291,6 +307,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 600px 500px;
             row-gap: 50px;
+            background-color: #fafafa;
         }
         &__title {
             width: 350px;
@@ -305,29 +322,36 @@
         }
     }
     .food {
+        padding: 150px 0px 75px 0px;
         .container {
             margin: 0 auto;
             width: 540px;
+        }
+        &__title {
+            font-size: 38px;
         }
         &__wrapper {
             grid-template-columns: 540px;
             column-gap: 100px;
         }
         &__heading {
-            height: 200px;
+            height: 220px;
         }
         &__list {
             grid-template-columns: 540px;
             grid-template-rows: repeat(3, 600px);
+            row-gap: 100px;
+            margin: 60px auto 0px auto;
         }
         &__item {
-            grid-template-columns: 440px;
+            grid-template-columns: 400px;
             column-gap: 70px;
-            grid-template-rows: 300px 400px;
-            margin: 70px auto 0px auto;
+            grid-template-rows: 400px 245px;
+            margin: 0 auto;
+            height: 650px;
         }
         &__img {
-            width: 360px;
+            width: 400px;
             margin: 0 auto;
             img {
                 width: 100%
@@ -335,19 +359,20 @@
         }
         &__information {
             &-header {
-                width: 350px;
+                width: 400px;
                 margin: 0 auto;
             }
             &-text {
-                width: 350px;
+                width: 400px;
                 margin: 0 auto;
+                padding-right: 10px;
             }
             &-btn {
-                width: 350px;
+                width: 400px;
                 margin: 30px auto 0px auto;
             }
             &-wrapper {
-
+                padding: 10px;
             }
         }
     }
@@ -371,6 +396,14 @@
         width: 300px;
     }
     .promo {
+        &__slider {
+            &-active {
+                color: #ffffff;
+            }
+            &-list {
+                color: #ffffff;
+            }
+        }
         &__backgrounds {
             grid-template-columns: 0% 100%;
         }
@@ -387,6 +420,9 @@
             &-home {
                 text-align: center;
             }
+            &-ss {
+                padding-left: 0px;
+            }
         }
         &__subtitle {
             color: #ffffff;
@@ -399,6 +435,7 @@
         &__descr {
             padding-top: 175px;
         }
+        
         &__play {
             margin: 0 auto;
             display: block;
@@ -431,6 +468,7 @@
         }
     }
     .timetable {
+        padding: 130px 0px 100px 0px;
         &__title {
             font-size: 38px;
         }
@@ -462,6 +500,7 @@
             grid-template-columns: 1fr;
             grid-template-rows: 600px 500px;
             row-gap: 50px;
+            background-color: #fafafa;
         }
         &__title {
             width: 300px;
@@ -522,6 +561,7 @@
             &-text {
                 width: 300px;
                 margin: 0 auto;
+                padding-right: 10px;
             }
             &-btn {
                 width: 300px;
