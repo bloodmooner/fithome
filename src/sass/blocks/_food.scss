@@ -51,7 +51,7 @@
     &__wrapper {
         margin-top: 70px;
         display: grid;
-        grid-template-columns: 335px 1008px;
+        grid-template-columns: 335px 1058px;
         column-gap: 140px;
     }
     &__caption {
@@ -65,7 +65,7 @@
     }
     &__list {
         display: grid;
-        grid-template-columns: 1008px;
+        grid-template-columns: 1058px;
         grid-template-rows: repeat(3, 335px);
         row-gap: 70px;
     }

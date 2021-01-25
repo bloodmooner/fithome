@@ -59,7 +59,7 @@
     }
     .food {
         .container {
-            margin-left: 35px;
+            margin: 0 auto;
             width: 1150px;
         }
         &__wrapper {
@@ -68,9 +68,11 @@
         }
         &__list {
             grid-template-columns: 790px;
+            margin: 0 auto;
         }
         &__item {
             grid-template-columns: 335px 337px;
+            margin: 0 auto;
         }
         &__information {
             &-text {
